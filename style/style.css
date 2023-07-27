@@ -1,0 +1,348 @@
+:root {
+    --main-bg: #19bce4;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    max-width: 1440px;
+    padding: 40px 0;
+    margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left_content {
+    display: flex;
+    align-items: center;
+  }
+  .left_content span {
+    margin-left: 6px;
+  }
+  .right_content {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    margin-right: 50px;
+  }
+  
+  button {
+    margin-left: 80px;
+    padding: 10px 25px;
+    background-color: var(--main-bg);
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  /* ================ DREAM ====================== */
+  
+  .dream {
+    background-image: url("../images/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+  
+  .dream h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .dream p {
+    margin-bottom: 80px;
+  }
+  
+  .dream-select {
+    background-color: white;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .dream-select select {
+    padding: 10px 100px 10px 10px;
+    border: 1px solid var(--main-bg);
+  }
+  
+  .dream-btn {
+    padding: 15px 70px;
+  }
+  
+  /* ============== ABOUT =============== */
+  .about {
+    max-width: 1440px;
+    padding: 40px 0;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: space-evenly;
+  }
+  
+  .about .about-img-s {
+    margin-left: -202px;
+    margin-bottom: -40px;
+  }
+  .about .right-content .about_title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .about .right-content .about_subtitle {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about_description {
+    margin-bottom: 40px;
+  }
+  
+  .about-icons {
+    display: flex;
+  }
+  .about-icons div {
+    margin-right: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .about-btn {
+    padding: 16px 32px;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 56px;
+  }
+  
+  .about-icons-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* ============= LOOKING ===================== */
+  .looking {
+    min-width: 1440px;
+    padding: 75px 0;
+    margin: 0 auto;
+    background: #f8fdfe;
+  }
+  
+  .looking-title {
+    font-size: 48px;
+    margin-bottom: 68px;
+    padding-left: 130px;
+  }
+  
+  .looking-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .looking .card {
+    padding: 24px 73px 24px 24px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .looking .card div {
+    padding-left: 25px;
+  }
+  .looking .card img {
+    width: 56px;
+    height: 56px;
+  }
+  .looking .card div h1 {
+    margin-bottom: 10px;
+  }
+  /* =============== PLACES ====================== */
+  .places {
+    min-width: 1440px;
+    margin: 0 auto;
+    padding: 120px 0;
+    text-align: center;
+  }
+  
+  .places-title {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  
+  .places-description {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .places-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .places-div .places-card {
+    position: relative;
+  }
+  
+  .places-div .places-card div {
+    color: white;
+    padding: 12px 30px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    background: rgba(0, 96, 119, 0.02);
+    backdrop-filter: blur(14.5px);
+  }
+  .places-div .places-card div h4 {
+    font-size: 20px;
+  }
+  
+  .places-div .places-card div p {
+    font-size: 20px;
+    color: #ddd;
+  }
+  
+  .places-smalldiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  } 
+  /* =========================CHOOSE============================= */
+  .choose {
+    min-width: 1440px;
+    margin: 0 auto;
+    padding: 95px 0;
+    background: #f8fdfe;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .choose-title {
+    margin-top: 40px;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .choose-description {
+    width: 564px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 30px;
+
+  }
+ 
+  .choose .left  button  {
+    margin: 0 auto;
+    padding: 16px 32px;
+    
+  }
+
+  /* ========================PEOPLE======================== */
+  .people {
+    margin-top: 120px;
+    padding: 96px 0;
+    background: #FFF8F7;
+    text-align: center;
+  }
+
+  .people-title {
+   font-size: 48px;
+   margin-bottom: 15px;
+  }
+
+  .people-descreption {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 120px;
+  }
+
+  .people-cards {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .people-cards .card {
+  padding: 81px 39px 31px 39px;
+  position: relative;
+  background-color: white;
+  width: 370px;
+ }
+ .people-cards .card h1 {
+   margin-top: 16px;
+   margin-bottom: 10px;
+   font-size: 24px;
+ }
+ .people-cards .card svg {
+    margin-bottom: 16px;
+ }
+ .people-cards .card img {
+    position: absolute;
+    top: -60px;
+    left: 30%;
+ }
+ /* ==================SUBSCRIBE=========== */
+ .subscribe {
+    padding: 50px 216px;
+    margin: 0 auto;
+    width: 1150px;
+    background: #19bce4;
+    border-radius: 24px;
+ }
+ .subscribe .subscribe-div h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+ }
+ .subscribe  .subscribe-div div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 6px;
+    color: #555;
+ }
+
+
+
+ /* =================FOOTER=================== */
+ footer {
+    min-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 0 135px;
+ }
+ .footer-card {
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer-card .card div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .footer-card .card p {
+    color: #555;
+    line-height: 27px;
+    font-size: 18px;
+ }
+
++
